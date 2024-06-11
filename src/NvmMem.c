@@ -76,7 +76,6 @@ void NvmMem_Write(uint32_t in_u32Address, const uint8_t *in_pu8Data, uint32_t in
     if (0U == in_u32DataSize)
     {
         EventReport_t event = {
-        EventReport_t event = {
 			EVENT_NVM_ZERO_DATA_SIZE,
 			m_eModuleId,
 			"NvmMem_Write",
